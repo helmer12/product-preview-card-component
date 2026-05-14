@@ -1,0 +1,20 @@
+:root {
+    --Green-500: hsl(158, 36%, 37%);
+    --Green-700: hsl(158, 42%, 1;8%);
+
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+
+    --space-100: 1rem;
+    --space-200: 1.5rem;
+    --space-300: 2rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.attribution { font-size: var(--space-100); text-align: center; }
+.attribution a { color: var(--Black); }
