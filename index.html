@@ -19,12 +19,14 @@
     <main>
       <article class="product-card">
         <div class="card-image">
-          <picture>
+          <picture>  
             <source
               media="(max-width: 768px)"
-              srcset="./images/image-product-mobile.jpg">
+              srcset="./images/image-product-mobile.jpg"
+              >
             
             <img
+              class="perfume-bottle"
               src="./images/image-product-desktop.jpg"
               alt="Gabrielle Essence perfume bottle">
           </picture>
@@ -41,7 +43,9 @@
           </div>
 
           <button>
-            <img src="./images/icon-cart.svg" alt="">
+            <img class="cart-icon" src="./images/icon-cart.svg"
+            alt=""
+            aria-hidden="true">
             Add to Cart
           </button>
         </div>
@@ -50,7 +54,7 @@
 
     <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-      Coded by <a href="#" rel="noopener noreferrer">Helmer Duarte Murallas</a>.
+      Coded by <a href="#" rel="noopener noreferrer" aria-label="Helmer Duarte Murallas (opens in new tab)">Helmer Duarte Murallas</a>.
     </footer>
   </body>
 </html>
