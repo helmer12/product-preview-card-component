@@ -151,7 +151,7 @@ button:focus-visible {
 
 a { color: var(--black); }
 
-@media(max-width:768px) {
+@media(min-width:769px) {
     .product-card{
         display: flex;
         flex-direction: column;
